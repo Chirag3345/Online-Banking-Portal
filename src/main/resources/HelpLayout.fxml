@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="true" prefHeight="500.0" prefWidth="800.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controllers.HelpLayoutController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="378.0" minWidth="10.0" prefWidth="352.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="366.0" minWidth="10.0" prefWidth="348.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="199.0" minHeight="10.0" prefHeight="112.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="132.0" minHeight="0.0" prefHeight="80.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="381.0" minHeight="0.0" prefHeight="81.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="470.0" minHeight="0.0" prefHeight="67.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="470.0" minHeight="9.0" prefHeight="72.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="470.0" minHeight="10.0" prefHeight="152.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="LContactNumber" alignment="CENTER" prefHeight="27.0" prefWidth="351.0" text="Contact Number:" GridPane.rowIndex="1">
+         <font>
+            <Font name="GoodPro-WideMedium" size="24.0" />
+         </font></Label>
+      <Label fx:id="LEmailId" alignment="CENTER" prefHeight="35.0" prefWidth="260.0" text="Email Id:" GridPane.rowIndex="2">
+         <font>
+            <Font name="GoodPro-WideMedium" size="24.0" />
+         </font></Label>
+      <Label fx:id="LEmailIdOutput" prefHeight="35.0" prefWidth="347.0" text="guptasribank@gmail.com" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="GoodPro-WideMedium" size="24.0" />
+         </font></Label>
+      <Label fx:id="LContactNumberOutput" prefWidth="424.0" text="9517538521" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="GoodPro-WideMedium" size="24.0" />
+         </font></Label>
+      <Label fx:id="LContactHelp" alignment="CENTER" prefHeight="53.0" prefWidth="815.0" text="Contact/Help" GridPane.columnSpan="2">
+         <font>
+            <Font name="GoodPro-WideMedium" size="36.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</GridPane>
